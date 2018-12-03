@@ -9,6 +9,14 @@
     padding: 8px;
 }
 
+#grid {
+    padding: 8px;
+}
+
+#grid:hover {
+    color: black;
+}
+
 #log-in{
     background: #4887ef; 
   margin-right: 25px;
@@ -25,6 +33,7 @@
 
 #right-side {
     float: right;
+    padding: 5px;
 }
 
 .google-logo{
@@ -54,7 +63,21 @@
   text-align: center;
   padding-top: 30px;
   margin-bottom: 300px;
+  color: black;
 }
+
+.buttons {
+    padding: 3px;
+    margin: 7px;
+    
+    
+
+}
+
+.buttons:hover {
+    color: black;
+}
+
 
 .ponuda {
 text-align: center;
@@ -117,7 +140,7 @@ font-size: 12px;
     position: absolute;
     bottom: 15px;
     left: 3px;
-    float: left;
+    float: none;
 }
 
 @media (max-width:600px){
